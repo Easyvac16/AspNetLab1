@@ -1,0 +1,12 @@
+﻿@page
+@model DIASP.Pages.BookModel
+@{
+}
+@foreach (var book in Model.Books)
+{
+    <p>Name: @book.Name</p>
+    <p>Author: @book.Author</p>
+    <p>Age: @book.Age</p>
+    <p>Style: @book.Style</p>
+    <hr />
+}

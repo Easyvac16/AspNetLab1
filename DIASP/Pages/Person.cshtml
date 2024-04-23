@@ -1,0 +1,14 @@
+﻿@page
+@model DIASP.Pages.PersonModel
+@{
+}
+<div>
+    @foreach (var person in Model.Persons)
+    {
+        <p>Name: @person.Name</p>
+        <p>Surname: @person.Surname</p>
+        <p>Age: @person.Age</p>
+        <hr/>
+    }
+    
+</div>
